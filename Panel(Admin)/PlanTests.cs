@@ -12,6 +12,7 @@ namespace AtataDemo.UITests
         public void PlanPage()
         {
             Go.To<PlanPage>()
+
                 .Логин.Set("kandksdc@gmail.com")
                 .Пароль.Set("777777")
                 .Войти.Click();

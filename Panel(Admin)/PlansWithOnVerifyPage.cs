@@ -15,7 +15,9 @@ namespace AtataDemo.UITests
             base.OnVerify();
 
             PageUrl.Should.Equal("https://10.1.0.189:195/#/home");
-            Content.Should.Contain("Администрирование"); 
+            PageTitle.Should.Equal("Primum");
+            Content.Should.Contain("Администрирование");
+         
         }
     }
 }

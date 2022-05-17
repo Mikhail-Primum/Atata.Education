@@ -15,4 +15,5 @@ namespace AtataDemo.UITests
         [FindByContent("Отчёты", Visibility = Visibility.Visible)]
         public Control<_> Отчёты { get; private set; }
     }
+
 }

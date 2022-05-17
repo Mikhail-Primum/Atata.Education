@@ -28,7 +28,8 @@ namespace AtataDemo.UITests
         public void SomePage()
         {
             Go.To<SomePage>()
-                .VisibleElement.Should.Exist();
+                .Администрирование.Should.Exist()
+                .Отчёты.Should.Exist();
         }
     }
 }
